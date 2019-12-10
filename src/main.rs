@@ -2,6 +2,7 @@ use url::Url;
 use zbox::RepoOpener;
 
 fn main() {
+    zbox::init_env();
     let mut path = std::env::current_exe().unwrap();
     path.pop();
     path.push("test-fs");
