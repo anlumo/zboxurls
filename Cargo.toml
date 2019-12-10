@@ -1,0 +1,9 @@
+[package]
+name = "zboxurls"
+version = "0.1.0"
+authors = ["Andreas Monitzer <andreas@monitzer.com>"]
+edition = "2018"
+
+[dependencies]
+zbox = { version = "0.8", features = ["libsodium-bundled", "storage-file"] }
+url = "2.1"
